@@ -1,0 +1,58 @@
+{
+  "title": "Why Gold Is Worth So Much",
+  "format": "landscape",
+  "style": "noir",
+  "fps": 24,
+  "voice": { "backend": "auto", "voice": "en-GB-RyanNeural", "rate": "+0%" },
+  "captions": { "enabled": true, "style": "clean", "position": "bottom" },
+  "music": { "file": "", "volume": 0.14 },
+  "render": { "engine": "auto", "quality": "standard" },
+  "transition": "fade",
+  "metadata": {
+    "title": "Why Is Gold So Valuable? (3D Explained)",
+    "description": "All the gold ever mined would fit in a cube about 22 metres on each side. So why is it worth so much?",
+    "tags": ["gold", "economics", "explained", "finance", "3d animation"]
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "narration": "Every bit of gold ever mined would fit inside a single cube, about twenty two metres on each side.",
+      "scene": { "template": "hero", "object": "cube", "material": "gold", "label": "All the gold ever mined", "caption": "≈ 22 m per side", "pedestal": true },
+      "thumbnail": true
+    },
+    {
+      "id": "question",
+      "narration": "So why has this one metal been worth a fortune for five thousand years?",
+      "scene": { "template": "title", "text": "Why *gold?*", "subtitle": "5,000 years of value", "anim": "drop" }
+    },
+    {
+      "id": "reasons",
+      "narration": "It never rusts. It is rare, but not too rare. And it is easy to divide and carry.",
+      "scene": { "template": "list", "title": "The perfect money metal", "items": ["Never corrodes", "Rare, but not too rare", "Easy to divide"], "reveal_at": [0.08, 0.3, 0.6] }
+    },
+    {
+      "id": "stock",
+      "narration": "Humans have mined around two hundred and twelve thousand tonnes in total.",
+      "scene": { "template": "counter", "to": 212000, "suffix": " t", "label": "gold mined, all time" }
+    },
+    {
+      "id": "vs",
+      "narration": "Compare that with silver. We pull about eight times more silver out of the ground every year.",
+      "scene": {
+        "template": "versus", "title": "Yearly mine output",
+        "left": { "label": "Gold", "object": "coin", "material": "gold", "value": 1, "suffix": "x" },
+        "right": { "label": "Silver", "object": "coin", "material": "chrome", "value": 8, "suffix": "x" }
+      }
+    },
+    {
+      "id": "history",
+      "narration": "From Lydian coins, to the gold standard, to modern central banks, it keeps coming back.",
+      "scene": { "template": "timeline", "events": [ { "label": "600 BC", "sub": "First coins" }, { "label": "1870s", "sub": "Gold standard" }, { "label": "1971", "sub": "Dollar unpegged" }, { "label": "Today", "sub": "Central bank reserves" } ] }
+    },
+    {
+      "id": "outro",
+      "narration": "Subscribe for more money explained in three D.",
+      "scene": { "template": "cta", "text": "*Subscribe*", "subtitle": "money, explained in 3D" }
+    }
+  ]
+}

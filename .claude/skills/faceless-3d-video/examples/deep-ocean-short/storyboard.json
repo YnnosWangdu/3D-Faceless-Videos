@@ -1,0 +1,60 @@
+{
+  "title": "The Ocean Is Deeper Than You Think",
+  "format": "shorts",
+  "style": "ocean",
+  "fps": 30,
+  "voice": { "backend": "auto", "voice": "en-US-AndrewMultilingualNeural", "rate": "+8%" },
+  "captions": { "enabled": true, "style": "pop", "words_per_line": 3 },
+  "music": { "file": "", "volume": 0.16 },
+  "render": { "engine": "auto", "quality": "standard" },
+  "metadata": {
+    "title": "The Ocean Is Deeper Than You Think 🌊",
+    "description": "Everest would vanish in the Mariana Trench with over two kilometres to spare. Here's how deep the ocean really goes.",
+    "tags": ["ocean", "mariana trench", "deep sea", "science facts", "shorts"],
+    "hashtags": ["shorts", "ocean", "deepsea", "sciencefacts"]
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "narration": "If you dropped Mount Everest into the ocean, it would disappear.",
+      "scene": { "template": "title", "text": "Everest would *disappear*", "subtitle": "if you dropped it in the ocean", "background": "shapes" },
+      "thumbnail": true
+    },
+    {
+      "id": "planet",
+      "narration": "Seventy one percent of our planet is water, and we have mapped less than a quarter of the sea floor in detail.",
+      "scene": { "template": "globe", "planet": "earth", "label": "71% water", "caption": "under 25% mapped in detail" }
+    },
+    {
+      "id": "compare",
+      "narration": "Everest stands at eight thousand eight hundred and forty nine metres. The Challenger Deep goes down almost eleven thousand.",
+      "scene": {
+        "template": "bar_chart", "title": "Height vs depth (m)", "suffix": " m",
+        "bars": [ { "label": "Everest", "value": 8849 }, { "label": "Challenger Deep", "value": 10935 } ]
+      }
+    },
+    {
+      "id": "pressure",
+      "narration": "At the bottom, the pressure is over one thousand times what you feel right now.",
+      "scene": { "template": "counter", "from": 1, "to": 1071, "suffix": "x", "label": "surface pressure" }
+    },
+    {
+      "id": "facts",
+      "narration": "Down there it is pitch black, near freezing, and still full of life.",
+      "scene": { "template": "list", "title": "The hadal zone", "items": ["Pitch black", "Around 2 °C", "Still full of life"], "reveal_at": [0.1, 0.35, 0.6] }
+    },
+    {
+      "id": "dives",
+      "narration": "Only a handful of people have ever been there. The first in nineteen sixty.",
+      "scene": {
+        "template": "timeline", "title": "Trips to the bottom",
+        "events": [ { "label": "1960", "sub": "Trieste" }, { "label": "2012", "sub": "Deepsea Challenger" }, { "label": "2019+", "sub": "Limiting Factor" } ]
+      }
+    },
+    {
+      "id": "outro",
+      "narration": "Follow for more facts from the deep.",
+      "scene": { "template": "cta", "text": "Follow for *more*", "subtitle": "facts from the deep" }
+    }
+  ]
+}

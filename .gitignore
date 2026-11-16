@@ -1,0 +1,10 @@
+# render outputs
+projects/*/build/
+projects/*/*.mp4
+projects/*/*_thumb.jpg
+**/build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.blend1

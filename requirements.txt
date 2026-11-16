@@ -1,0 +1,6 @@
+# Python deps for the faceless-3d-video kit (Blender and ffmpeg are installed separately)
+edge-tts>=6.1          # free neural voiceover with word timings (needs internet)
+# optional:
+# faster-whisper       # exact caption timing for openai/piper/your own recordings
+# piper-tts            # offline neural voice
+# bpy                  # Blender as a Python module, if you don't install the Blender app
